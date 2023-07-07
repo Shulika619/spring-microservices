@@ -1,1 +1,9 @@
-rootProject.name = 'eureka-client'
+rootProject.name = 'spring-microservices'
+
+// что бы происходил билд внутр модулей
+includeBuild 'eureka-server'
+includeBuild 'eureka-client'
+includeBuild 'api-gateway'
+includeBuild 'eureka-client2'
+includeBuild 'github-config-server'
+

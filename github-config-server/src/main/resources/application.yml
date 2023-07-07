@@ -1,0 +1,16 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: github-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Shulika619/prop-micro.git
+          cloneOnStart: true
+          basedir: file://c:/java/repository/git-c
+          username: Shulika619
+          password: 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
+          defaultLabel: main
